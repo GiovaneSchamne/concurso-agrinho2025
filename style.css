@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4fff4;
+    color: #333;
+}
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+section {
+    padding: 1rem 2rem;
+}
+button {
+    background-color: #388e3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2e7d32;
+}
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.imagem-inovacao {
+    text-align: center;
+    margin: 2rem 0;
+}
+.imagem-explicativa {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.imagem-explicativa img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.legenda {
+    font-style: italic;
+    color: #555;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+}
+#linha-tempo {
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.linha-tempo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.linha-tempo .evento {
+    max-width: 600px;
+    text-align: center;
+}
+
+.linha-tempo .evento img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.linha-tempo .evento p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+#quiz {
+    padding: 2rem;
+    background-color: #fffefc;
+    border-top: 2px dashed #ccc;
+    border-bottom: 2px dashed #ccc;
+}
+
+#quiz h2 {
+    margin-bottom: 1rem;
+}
+
+#quiz ol {
+    margin-left: 1.5rem;
+}
+
+#quiz li {
+    margin-bottom: 1.5rem;}

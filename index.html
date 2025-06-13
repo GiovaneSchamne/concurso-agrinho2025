@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tecnologia no Campo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tecnologia que Transforma o Campo</h1>
+        <p>Inovações que cultivam o futuro da agricultura</p>
+    <div class="imagem-explicativa">
+    <img src="https://tecnologianocampo.com.br/wp-content/uploads/2018/05/drone-800x539.jpg" 
+         alt="Drone monitorando lavoura">
+    <p class="legenda">Drones agrícolas permitem o monitoramento inteligente das plantações com rapidez e precisão.</p>
+</div>
+        <section id="transformacao">
+    <h2>Como a Tecnologia Transforma o Campo e a Cidade</h2>
+    <div class="resumo">
+        <h3>🌾 No Campo</h3>
+        <ul>
+            <li>Drones e sensores otimizam as plantações</li>
+            <li>Máquinas automatizadas reduzem o esforço físico</li>
+            <li>Internet no campo acelera decisões</li>
+        </ul>
+        <h3>🏙️ Na Cidade</h3>
+        <ul>
+            <li>Aplicativos facilitam transporte, saúde e educação</li>
+            <li>Cidades inteligentes economizam energia e tempo</li>
+            <li>Trabalho e estudos à distância ampliam acessos</li>
+        </ul>
+        <h3>🌐 Conexão</h3>
+        <p>Campo e cidade se complementam com inovação: o que é colhido com tecnologia abastece a cidade — e o que é criado na cidade retorna ao campo como solução.</p>
+    </div>
+</section>
+<section id="quiz">
+  <h2>Quiz: Você sabe tudo sobre inovação no campo e na cidade?</h2>
+  <form id="quiz-form">
+    <div class="pergunta">
+      <p>1. Qual destes é um exemplo de agricultura de precisão?</p>
+      <label><input type="radio" name="q1" value="errado"> A) Arado puxado por bois</label><br>
+      <label><input type="radio" name="q1" value="errado"> B) Plantio manual</label><br>
+      <label><input type="radio" name="q1" value="certo"> C) Uso de sensores e GPS</label>
+    </div>
+
+    <div class="pergunta">
+      <p>2. Como a tecnologia ajuda nas cidades inteligentes?</p>
+      <label><input type="radio" name="q2" value="certo"> A) Com sistemas de transporte e energia otimizados</label><br>
+      <label><input type="radio" name="q2" value="errado"> B) Com plantações urbanas</label><br>
+      <label><input type="radio" name="q2" value="errado"> C) Com lixeiras decorativas</label>
+    </div>
+
+    <div class="pergunta">
+      <p>3. O que drones fazem no campo?</p>
+      <label><input type="radio" name="q3" value="errado"> A) Plantam sementes manualmente</label><br>
+      <label><input type="radio" name="q3" value="certo"> B) Monitoram e analisam lavouras</label><br>
+      <label><input type="radio" name="q3" value="errado"> C) Tiram selfies com as vacas</label>
+    </div>
+
+    <button type="button" onclick="verificarRespostas()">Ver Resultado</button>
+    <p id="resultado"></p>
+  </form>
+</section>
+    </header>
+    <section id="linha-tempo">
+  <h2>Evolução da Tecnologia no Campo</h2>
+  <div class="linha-tempo">
+    <div class="evento">
+      <img src="https://cdn.pixabay.com/photo/2015/05/15/14/47/plow-768785_1280.jpg" alt="Arado tradicional" />
+      <p><strong>Antes dos anos 1980:</strong> Trabalho manual e equipamentos rudimentares, como arados puxados por animais.</p>
+      <div class="imagem-explicativa">
+    <img src="https://cdn.pixabay.com/photo/2016/10/18/13/28/plow-1750162_960_720.jpg" 
+         alt="Arado tradicional em uso">
+    <p class="legenda">O arado tradicional representa a força e o início da mecanização no campo.</p>
+</div>
+    </div>
+    <div class="evento">
+      <img src="https://cdn.pixabay.com/photo/2019/03/06/11/56/tractor-4037990_1280.jpg" alt="Trator agrícola" />
+      <p><strong>Anos 1990–2000:</strong> Mecanização com tratores e colheitadeiras populares.</p><div class="imagem-explicativa">
+        <div class="imagem-explicativa">
+    <img src="https://thereadtoday.com/wp-content/uploads/2020/08/Second-Hand-Tractor-768x427.jpg" 
+         alt="Trator agrícola antigo em atividade">
+    <p class="legenda">Tratores antigos foram essenciais na transição do trabalho manual para a mecanização no campo.</p>
+</div>
+</div>
+    </div>
+    <div class="evento">
+      <img src="https://cdn.pixabay.com/photo/2020/02/19/13/32/drone-4860139_1280.jpg" alt="Drone sobre plantação" />
+      <p><strong>Atualidade:</strong> Drones, sensores e inteligência artificial transformam o campo em uma rede inteligente.</p>
+      <div class="imagem-explicativa">
+    <img src="https://portalrondon.com.br/wp-content/uploads/2021/04/dji-4204804_1280.jpg" 
+         alt="Drone sobrevoando área rural verdejante">
+    <p class="legenda">Drones modernos como este contribuem para o monitoramento aéreo preciso nas atividades agrícolas.</p>
+</div>
+    </div>
+  </div>
+</section>
+<section id="dicas">
+  <h2>Dicas de Sustentabilidade com Tecnologia</h2>
+  <ul>
+    <li>Use sensores para evitar desperdício de água na irrigação.</li>
+    <li>Adote iluminação pública com energia solar na zona rural.</li>
+    <li>Prefira máquinas agrícolas com menor emissão de CO₂.</li>
+    <li>Recicle eletrônicos antigos com segurança.</li>
+    <li>Na cidade, use apps de transporte coletivo para diminuir a poluição.</li>
+  </ul>
+</section>
+
+    <section id="destaques">
+        <h2>Principais Inovações</h2>
+        <ul>
+            <li>Drones para monitoramento</li>
+            <li>Sensores de solo inteligentes</li>
+            <li>IA para previsão de safra</li>
+        </ul>
+    </section>
+
+    <section id="cta">
+        <button onclick="mostrarMensagem()">Saiba mais</button>
+        <p id="mensagem" style="display:none;">Em breve, mais novidades para revolucionar o campo!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Giovane Tech Agro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
