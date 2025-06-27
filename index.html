@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+      <button id="topo" onclick="scrollToTop()">⬆️ Topo</button>
         <h1>Tecnologia que Transforma o Campo</h1>
         <p>Inovações que cultivam o futuro da agricultura</p>
     <div class="imagem-explicativa">
@@ -33,6 +34,38 @@
         <p>Campo e cidade se complementam com inovação: o que é colhido com tecnologia abastece a cidade — e o que é criado na cidade retorna ao campo como solução.</p>
     </div>
 </section>
+<!-- No <head> ou logo antes de fechar o </body> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<section id="grafico">
+  <h2>Evolução do Uso da Tecnologia no Campo</h2>
+  <canvas id="graficoTecnologia" width="400" height="200"></canvas>
+</section>
+<script>
+  const ctx = document.getElementById('graficoTecnologia').getContext('2d');
+  const graficoTecnologia = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['1980', '1990', '2000', '2010', '2020', '2025'],
+      datasets: [{
+        label: 'Nível de Tecnologia',
+        data: [10, 25, 40, 60, 85, 95],
+        borderColor: '#4caf50',
+        backgroundColor: 'rgba(76, 175, 80, 0.2)',
+        borderWidth: 2,
+        tension: 0.3
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: true }
+      },
+      scales: {
+        y: { beginAtZero: true }
+      }
+    }
+  });
+</script>
 <section id="quiz">
   <h2>Quiz: Você sabe tudo sobre inovação no campo e na cidade?</h2>
   <form id="quiz-form">
